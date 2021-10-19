@@ -4,7 +4,7 @@
 
 layout: page
 title: "Main page"
-permalink: /main/
+permalink: /
 ---
 
 # This is my GitHub Page.
