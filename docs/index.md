@@ -7,4 +7,6 @@ title: "Main page"
 permalink: /
 ---
 
-# This is my GitHub Page.
+{% for post in site.posts %}
+    [{{ post.title }}]({{ post.url }})
+{% endfor %}
