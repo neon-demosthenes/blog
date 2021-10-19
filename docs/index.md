@@ -7,6 +7,10 @@ title: "Main page"
 permalink: /
 ---
 
+<ul>
 {% for post in site.posts %}
-    [{{ post.title }}]({{ post.url }})
+	<li>
+	    <a href="{{ post.url }}">{{ post.title }}</a>
+	</li>
 {% endfor %}
+<ul>
